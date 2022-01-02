@@ -1,0 +1,14 @@
+{
+  "name": "frontend-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "webpack serve",
+    "build": "webpack build --config ./webpack.config.js",
+    "setup": "npm i webpack webpack-cli sass sass-loader css-loader ts-loader mini-css-extract-plugin html-webpack-plugin --save-dev" 
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
